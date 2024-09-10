@@ -25,6 +25,10 @@ Install requirements
 ```python
 pip install -r requirements.txt
 ```
+To Install all Local packages
+```python
+pip install -e .
+```
 To run train pipeline
 ```python
 python ner/pipeline/train_pipeline.py

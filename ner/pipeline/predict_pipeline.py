@@ -44,4 +44,4 @@ class PredictPipeline:
 
 if __name__ == "__main__":
     pipeline = PredictPipeline(Configuration())
-    pipeline.run_pipeline("Lokesh is a good boy")
+    pipeline.run_pipeline("Lokesh is working in a company")

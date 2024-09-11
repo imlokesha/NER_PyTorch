@@ -16,7 +16,7 @@ class DataIngestion:
     def get_data(self):
         try:
             """
-            This is class is responsible for data collection from official hugging face library.
+            This class is responsible for data collection from official hugging face library.
             Cross-lingual Transfer Evaluation of Multilingual Encoders 
             (XTREME) benchmark called WikiANN or PAN-X.
             

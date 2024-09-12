@@ -53,6 +53,8 @@ def train(request: Request):
         return JSONResponse(content=train_info, status_code=200, media_type="application/json")
 
     elif request.method == "POST":
+        train_info = {"Pipeline": "Training in progress",
+                      "Metadata": "Created using fastapi"}
 
         return JSONResponse(content=train_info, status_code=200, media_type="application/json")
 
